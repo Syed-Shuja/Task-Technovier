@@ -1,0 +1,30 @@
+.container{
+    /* border: black solid; */
+    height: 100%;
+    position: relative;
+    bottom: 0;
+    left: 100px;
+    text-align: center;
+
+}
+
+td b{
+    font-size: 25px;
+    /* justify-content: left !important; */
+}
+table {
+    height: 100%;
+    font-size: 14px;
+}
+
+
+@media screen and (min-width: 200px) {table{
+    float: left;
+
+}
+}
+
+table input {
+    border: lightgray solid;
+    border-radius: 5px;
+}
